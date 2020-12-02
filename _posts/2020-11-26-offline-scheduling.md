@@ -78,3 +78,173 @@ Solving this problem using standard solver (e.g. Excel's solver or OpenSolver), 
 You can [download the full worksheet here](https://1drv.ms/x/s!AmboMly0ctnTgiJ9E6ceGuveGffo?e=R1fUi4). 
 
 This is perhaps the simplest model for this problem. You could modify the objective, say to have more consecutive shift assignments, or add constraints to accommodate other features of real life problems. Let me know what problems in your organization you can solve using this offline scheduling formulation!
+
+
+TEst
+
+
+test
+
+
+<div id="hot1"></div>
+
+<script>var dataObject1 = [
+  {
+    id: 'Ahmad',
+    senPag: 1, 
+    senMal: 0,
+    selPag: 1, 
+    selMal: 0,
+    rabPag: 1, 
+    rabMal: 0,
+    kamPag: 1, 
+    kamMal: 0,
+    jumPag: 1, 
+    jumMal: 0,
+    sabPag: 0, 
+    sabMal: 0
+  },
+  {
+    id: 'Edi',
+    senPag: 1, 
+    senMal: 0,
+    selPag: 1, 
+    selMal: 0,
+    rabPag: 1, 
+    rabMal: 0,
+    kamPag: 1, 
+    kamMal: 0,
+    jumPag: 1, 
+    jumMal: 0,
+    sabPag: 0, 
+    sabMal: 0
+  },
+  {
+    id: 'Eva',
+    senPag: 1, 
+    senMal: 0,
+    selPag: 1, 
+    selMal: 0,
+    rabPag: 1, 
+    rabMal: 0,
+    kamPag: 1, 
+    kamMal: 0,
+    jumPag: 1, 
+    jumMal: 0,
+    sabPag: 0, 
+    sabMal: 0
+  },
+  {
+    id: 'Fatimah',
+    senPag: 1, 
+    senMal: 0,
+    selPag: 1, 
+    selMal: 0,
+    rabPag: 1, 
+    rabMal: 0,
+    kamPag: 1, 
+    kamMal: 0,
+    jumPag: 1, 
+    jumMal: 0,
+    sabPag: 0, 
+    sabMal: 0
+  },
+  {
+    id: 'Husain',
+    senPag: 1, 
+    senMal: 0,
+    selPag: 1, 
+    selMal: 0,
+    rabPag: 1, 
+    rabMal: 0,
+    kamPag: 1, 
+    kamMal: 0,
+    jumPag: 1, 
+    jumMal: 0,
+    sabPag: 0, 
+    sabMal: 0
+  }
+];
+
+
+var hotElement1 = document.querySelector('#hot1');
+var hotElementContainer1 = hotElement1.parentNode;
+var hotSettings1 = {
+  data: dataObject1,
+  columns: [
+    {
+      data: 'id',
+      type: 'text',
+      width: 100
+    },
+    {
+      data: 'senPag',
+      type: 'numeric'
+    },
+    {
+      data: 'senMal',
+      type: 'numeric'
+    },
+    {
+      data: 'selPag',
+      type: 'numeric'
+    },
+    {
+      data: 'selMal',
+      type: 'numeric'
+    },
+    {
+      data: 'rabPag',
+      type: 'numeric'
+    },
+    {
+      data: 'rabMal',
+      type: 'numeric'
+    },
+    {
+      data: 'kamPag',
+      type: 'numeric'
+    },
+    {
+      data: 'kamMal',
+      type: 'numeric'
+    },
+    {
+      data: 'jumPag',
+      type: 'numeric'
+    },
+    {
+      data: 'jumMal',
+      type: 'numeric'
+    },
+    {
+      data: 'sabPag',
+      type: 'numeric'
+    },
+    {
+      data: 'sabMal',
+      type: 'numeric'
+    }
+  ],
+  autoWrapRow: true,
+  rowHeaders: true,
+  colHeaders: [
+    'A',
+    'B',
+    'C',
+    'D',
+    'E',
+    'F',
+    'G',
+    'H',
+    'I',
+    'J',
+    'K',
+    'L',
+    'M'
+  ],
+   licenseKey: 'non-commercial-and-evaluation'
+};
+var hot1 = new Handsontable(hotElement1, hotSettings1);
+</script>
+
